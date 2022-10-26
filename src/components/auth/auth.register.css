@@ -1,0 +1,93 @@
+.container {
+  margin-top: 2rem;
+}
+
+.container-body {
+  margin: 0 auto;
+  background: rgb(34, 48, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 48, 195, 0.9756945014333859) 0%,
+    rgba(45, 189, 253, 1) 100%
+  );
+  width: 60rem;
+  height: auto;
+  padding: 8rem 0;
+  border-radius: 5px;
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 70%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0% 70%,
+    0% 35%,
+    20% 10%
+  );
+}
+
+.form-login {
+  font-size: 1.7rem;
+  width: 40rem;
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 2rem 5rem;
+  padding-bottom: 4rem;
+}
+
+.form-login h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #0496ff;
+  margin-top: 0;
+}
+
+.status-success {
+  background-color: #eeeeee;
+
+  color: rgb(8, 166, 8);
+}
+
+.status-fail {
+  background-color: #eeeeee;
+  color: rgb(226, 32, 10);
+}
+
+.form-login p {
+  padding: 0.15rem 0.5rem;
+  min-height: 2.85rem;
+}
+.form-login--body {
+  margin-top: 1rem;
+}
+
+.form-login--body label {
+  font-size: 1.5rem;
+}
+
+.form-login--body input[type="password"],
+.form-login--body input[type="text"] {
+  font-size: 1.75rem;
+  padding: 0.5rem 1rem;
+}
+.form-login--body input:focus {
+  box-shadow: none;
+}
+.form-login--body button {
+  margin-top: 1rem;
+  transform: translateY(1.5rem);
+  padding: 0.5rem 1.75rem;
+  font-size: 1.7rem;
+  display: block;
+  margin: 0 auto;
+  color: #0496ff;
+}
+
+.form-login--body button:active {
+  transform: translateY(1.55rem);
+}
