@@ -76,7 +76,11 @@ function Register() {
                   value={username}
                   type="text"
                   placeholder="Enter your username"
-                  onChange={(e) => setUsername(e.target.value)}
+                  onChange={(e) => {
+                    setUsername(e.target.value);
+                    setNotification("");
+                    setMessage("");
+                  }}
                 />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -86,7 +90,11 @@ function Register() {
                   value={password}
                   type="password"
                   placeholder="Enter your password"
-                  onChange={(e) => setPassword(e.target.value)}
+                  onChange={(e) => {
+                    setPassword(e.target.value);
+                    setNotification("");
+                    setMessage("");
+                  }}
                 />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicRePassword">
@@ -95,7 +103,11 @@ function Register() {
                   value={rePassword}
                   type="password"
                   placeholder="Enter your password"
-                  onChange={(e) => setRePassword(e.target.value)}
+                  onChange={(e) => {
+                    setRePassword(e.target.value);
+                    setNotification("");
+                    setMessage("");
+                  }}
                 />
               </Form.Group>
               <Button variant="outline-primary" type="submit">
