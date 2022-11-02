@@ -42,7 +42,7 @@ function Register() {
     }
   };
   return (
-    <div className="container" style={{ marginTop: "6rem" }}>
+    <div className="container" style={{ marginTop: "5rem" }}>
       <div className="container-body">
         <div className="form-login">
           <div className="form-login--title">
@@ -161,6 +161,10 @@ function Register() {
                   }}
                 />
               </Form.Group>
+              <div>
+                <span>You already account? </span>
+                <a>Sign in</a>
+              </div>
               <Button variant="outline-primary" type="submit">
                 SUBMIT
               </Button>
