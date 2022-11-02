@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +11,14 @@ html {
   margin: 0;
   padding: 0;
   max-width: auto;
+  width: 100%;
 }
-
 
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-
+a:link {
+  text-decoration: none;
+}

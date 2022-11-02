@@ -1,0 +1,22 @@
+.infoBox {
+  border: 0.15px solid rgb(205, 204, 204);
+  padding: 3rem 2rem;
+  width: 40rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.6rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+input {
+  font-size: 1.75rem !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.infoBox-title h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}

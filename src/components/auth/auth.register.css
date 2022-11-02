@@ -1,5 +1,6 @@
 .container {
-  margin-top: 2rem;
+  width: auto;
+  margin-top: 10rem;
 }
 
 .container-body {
@@ -7,27 +8,14 @@
   background: rgb(34, 48, 195);
   background: linear-gradient(
     0deg,
-    rgba(34, 48, 195, 0.9756945014333859) 0%,
+    rgba(38, 116, 234, 0.976) 0%,
     rgba(45, 189, 253, 1) 100%
   );
-  width: 60rem;
+  width: 40rem;
   height: auto;
-  padding: 8rem 0;
+  padding: 0.5rem 0;
   border-radius: 5px;
-  clip-path: polygon(
-    50% 0%,
-    80% 10%,
-    100% 35%,
-    100% 70%,
-    80% 90%,
-    50% 100%,
-    20% 90%,
-    0% 70%,
-    0% 35%,
-    20% 10%
-  );
 }
-
 .form-login {
   font-size: 1.7rem;
   width: 40rem;
@@ -40,6 +28,9 @@
   padding-bottom: 4rem;
 }
 
+#form-login-message {
+  min-height: 3rem;
+}
 .form-login h3 {
   font-size: 2.5rem;
   text-align: center;
@@ -71,7 +62,8 @@
 }
 
 .form-login--body input[type="password"],
-.form-login--body input[type="text"] {
+.form-login--body input[type="text"],
+.form-login--body input[type="email"] {
   font-size: 1.75rem;
   padding: 0.5rem 1rem;
 }
