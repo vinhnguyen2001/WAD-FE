@@ -163,7 +163,7 @@ function Register() {
               </Form.Group>
               <div>
                 <span>You already account? </span>
-                <a>Sign in</a>
+                <a href="/auth/sign-in">Sign in</a>
               </div>
               <Button variant="outline-primary" type="submit">
                 SUBMIT
