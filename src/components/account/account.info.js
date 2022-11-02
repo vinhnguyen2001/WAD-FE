@@ -46,14 +46,6 @@ function DisplayInfo() {
                 readOnly
               />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="register-email">
-              <Form.Label>Status</Form.Label>
-              <Form.Control
-                readOnly
-                type="text"
-                value={data.data.status == 1 ? "active" : "block"}
-              />
-            </Form.Group>
           </Form>
           <p>
             Message:
