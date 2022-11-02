@@ -12,4 +12,4 @@ You may also see any lint errors in the console.
 
 ### Link demo
 
-https://clone-app-hcmus.netlify.app/
+https://clone-app-frontend.vercel.app/
