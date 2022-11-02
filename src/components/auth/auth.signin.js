@@ -17,6 +17,10 @@ function SignIn() {
   const [message, setMsg] = useState("");
   const [notify, setNotify] = useState("");
 
+  const redirectPage = () => {
+    navigate("/auth/register");
+  };
+
   const onSubmit = async ({ username, password }) => {
     let value = {
       username: username.trim(),
@@ -107,7 +111,9 @@ function SignIn() {
               </Form.Group>
               <div>
                 <span>New user? </span>
-                <a href="/auth/register"> Create an account</a>
+                <a onClick={redirectPage} href="/auth/register">
+                  Create an account
+                </a>
               </div>
               <Button variant="outline-primary" type="submit">
                 SUBMIT
